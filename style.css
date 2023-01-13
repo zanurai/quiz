@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rum+Raisin&display=family=Courgette&family=Tillana&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+    background-color: hsl(206, 92%, 94%);
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.inner-div {
+    background-color: whitesmoke;
+    width: 40vw;
+
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgb(43, 40, 40);
+}
+
+.inner-div h2 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin: 1rem 0 1.5rem 0;
+
+    font-family: 'Rum Raisin', sans-serif;
+
+}
+
+.inner-div li {
+    font-size: 1.2rem;
+    font-family: 'Courgette', cursive;
+    margin-top: 1rem;
+    list-style: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+#submit,
+.btn {
+    padding: 0.3rem 0.9rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(81, 81, 240);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+
+#submit:hover {
+    background-color: rgb(155, 155, 238);
+}
+
+#showScore {
+    background-color: rgb(168, 165, 165);
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 1rem 1rem rgb(43, 40, 40);
+
+}
+
+#showScore h3 {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: 30%;
+}
+
+#showScore .btn:hover {
+    background-color: rgb(192, 192, 238);
+}
+
+
+
+.scoreA {
+    display: none;
+}
